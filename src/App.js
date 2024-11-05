@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.scss";
+import Counter from "./Counter/Counter";
+import Hover from "./Hover/Hover";
 const App = () => {
   return (
     <div>
-      App
-      <button className="btn btn-success">click</button>
+      <Counter />
+      <Hover />
     </div>
   );
 };
